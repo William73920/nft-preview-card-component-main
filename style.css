@@ -102,7 +102,7 @@ body {
 }
 .nft__content {
   display: grid;
-  gap: 0.6rem;
+  gap: 1rem;
 }
 .card__img {
   border-radius: 10px;
@@ -115,6 +115,7 @@ body {
 .card__img:hover .view {
   display: block;
   opacity: 0.4;
+  cursor: pointer;
 }
 
 .card__img:hover .overlay {
@@ -187,4 +188,9 @@ hr {
 .view {
   position: absolute;
   display: none;
+}
+
+.nft__heading:hover {
+  color: var(--clr-primary-300);
+  cursor: pointer;
 }
